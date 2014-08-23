@@ -8,7 +8,16 @@ Getting Started
 
 Clone the angular-seed repository using git:
 
+git clone https://github.com/wrobin/D3-On-Angular-Seed.git
+cd D3-On-Angular-Seed
 
+Run:
+
+`npm install`
+`bower install`
+`bower install d3`
+`grunt`
+`grunt serve`
 
 Sample Line Chart
 ==================
