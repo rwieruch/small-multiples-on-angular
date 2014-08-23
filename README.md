@@ -13,11 +13,13 @@ cd D3-On-Angular-Seed
 
 Run:
 
-`npm install`
-`bower install`
-`bower install d3`
-`grunt`
-`grunt serve`
+```
+npm install
+bower update
+bower install d3
+grunt
+grunt serve
+```
 
 Sample Line Chart
 ==================
