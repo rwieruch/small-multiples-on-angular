@@ -1,7 +1,7 @@
 D3-On-Angular-Seed
 ==================
 
-This project is a skeleton for angular.js web apps with the power to make awesome d3.js visualizations.
+This project is a skeleton for angular.js web apps with the power to make awesome d3.js visualizations. It was scaffolded by yeoman.
 
 Getting Started
 ==================
