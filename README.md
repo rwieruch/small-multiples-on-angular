@@ -15,9 +15,7 @@ Run:
 
 ```
 npm install
-bower update
-bower install d3
-grunt
+bower install
 grunt serve
 ```
 
