@@ -9,6 +9,7 @@ Getting Started
 Clone the small-multiples-on-angular-seed repository using git:
 
 git clone https://github.com/wrobin/Small-Multiples-On-Angular.git
+
 cd Small-Multiples-On-Angular
 
 Run:
