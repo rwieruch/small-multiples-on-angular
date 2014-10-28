@@ -78,6 +78,15 @@ body {
   }
 }
 
+.my-inner-container {
+  width: 100%;
+  padding: 5px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  background-color: #DFDFDF;
+  -webkit-border-radius: 4px;
+}
+
 /* D3 */
 
 .axis path,
