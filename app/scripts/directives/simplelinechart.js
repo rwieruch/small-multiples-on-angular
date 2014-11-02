@@ -11,12 +11,12 @@ angular.module('d3OnAngularSeedApp')
     return {
       restrict: 'EA',
       scope: {
-      	data: '='
+      	data: '=' // bi-directional data-binding
       },
       link: function(scope, element, attrs) {
         d3Service.d3().then(function(d3) {
 
-		    	var margin = {top: 20, right: 20, bottom: 30, left: 50},
+		    	var margin = {top: 20, right: 40, bottom: 30, left: 70},
 				    width = 600 - margin.left - margin.right,
 				    height = 200 - margin.top - margin.bottom;
 
@@ -30,7 +30,11 @@ angular.module('d3OnAngularSeedApp')
 
 					var xAxis = d3.svg.axis()
 					    .scale(x)
-					    .orient('bottom');
+            			.orient('bottom')
+            			.ticks(d3.time.days, 1)
+            			.tickFormat(d3.time.format('%a %d'))
+            			.tickSize(0)
+            			.tickPadding(8);
 
 					var yAxis = d3.svg.axis()
 					    .scale(y)
@@ -61,6 +65,7 @@ angular.module('d3OnAngularSeedApp')
 
 				  svg.append('g')
 				      .attr('class', 'y axis')
+				      .attr('transform', 'translate(' + -0.5 * margin.left + ',0)')
 				      .call(yAxis)
 				    .append('text')
 				      .attr('transform', 'rotate(-90)')
