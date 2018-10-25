@@ -1,6 +1,8 @@
 Small-Multiples-On-Angular-Seed
 ==================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/rwieruch/small-multiples-on-angular.svg)](https://greenkeeper.io/)
+
 This project is a skeleton for angular.js web apps with the power to make awesome d3.js visualizations. It provides the ability to visualize Small Multiples as Line Graphs. It was scaffolded by yeoman. More on http://www.robinwieruch.de/
 
 Getting Started
